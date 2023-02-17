@@ -1,0 +1,7 @@
+export {NavBar} from './Navbar'
+export {Hero} from './Hero'
+export {Servicios} from './Servicios'
+export {Portfolio} from './Portfolio'
+export {Opiniones} from './Opiniones'
+export {Formulario} from './Formulario'
+export {Footer} from './Footer'

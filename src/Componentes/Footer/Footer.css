@@ -1,0 +1,26 @@
+.copy{color:white;
+font-size: 0.8rem;
+background-color: var(--colorPrimario);
+height: 4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.info_footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 2rem;
+
+}
+.aFooter{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.aFooter:hover{transform: scale(1.2);}
