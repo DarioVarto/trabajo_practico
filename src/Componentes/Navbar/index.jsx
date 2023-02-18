@@ -2,11 +2,20 @@ import React from 'react';
 import './Navbar.css'
 import {BsFacebook,BsInstagram,BsWhatsapp} from 'react-icons/bs'
 import {Logo} from '../Logo'
-import {GiHamburgerMenu} from 'react-icons/gi'
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {MenuHamburguesa} from '../MenuHamburguesa';
+import { useState } from 'react';
 
  
 
 const NavBar = () => {
+
+    const [ver,setVer]= useState(false)
+
+    const mostrar = () => {
+        setVer(!ver)
+     }
+
     return(
         <header className='contenedorNav'>
             
@@ -28,7 +37,8 @@ const NavBar = () => {
 
             </div>
             <div className='hamburguesa'>
-                    <GiHamburgerMenu/>
+                    <GiHamburgerMenu onClick={mostrar}/>
+                   {ver && <MenuHamburguesa/>}
             </div>
         </header>
     )
