@@ -122,14 +122,27 @@
     
     
     @media(max-width:1680px){
-      
+        
+        .shp{height: 100%;}
+
         .contenedoorTexto{padding-left: 10.2rem;}
         .contenedor_imagen{
+          
+            
+            transform: translateX(16.2vh) translateY(-94vh);
+           
+
+        }
+        .contenedor_imagen{
                             display: flex;
-                            height: 50%;
-                            width: 50%;            
-                            transform: translateX(20vh) translateY(-88vh);
+                            height: 55%;
+                            width: 65%;            
+                            transform: translateX(16.6vh) translateY(-84vh);
                             }
+
+        .img_hero{
+                            width: 100%;        
+                              }
         .btn_hero{padding: 1.2rem 3.5rem;}                   
                         
                         }

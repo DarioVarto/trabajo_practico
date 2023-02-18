@@ -16,7 +16,7 @@ const Footer = () => {
                 <a className='aFooter' href="#Opiniones">Opiniones</a>
                 <a className='aFooter' href="#Contacto">Contacto</a>
             </div>
-            <div className='contenedor_redes'>
+            <div className='contenedor_redes redes_footer'>
             <a href="https://www.facebook.com/profile.php?id=100090075738822" target='_blank' rel="noreferrer" className='redes_hover'><BsFacebook className='redes'/></a>
                 <a href="https://www.instagram.com/dariovarcaz/" target='_blank' rel="noreferrer" className='redes_hover'><BsInstagram className='redes'/></a>
                 <a href="https://wa.me/5491138842605/?text=Hola, quería consultarte..." target="_blank" rel="noreferrer" className='redes_hover'><BsWhatsapp className='redes'/></a>
