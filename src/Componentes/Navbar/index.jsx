@@ -21,7 +21,7 @@ const NavBar = () => {
            <Logo/>
             <div className= {`nav_items ${ver && 'open'}`}>
                 <div className='contenedor_a'>
-                    <a className='aNavbar' href="#Hero">Acerca de mí</a>
+                    <a className='aNavbar' href="#Hero">Sobre mí</a>
                     <a className='aNavbar' href="#servicios">Servicios</a>
                     <a className='aNavbar' href="#Portfolio">Portfolio</a>
                     <a className='aNavbar' href="#Opiniones">Opiniones</a>

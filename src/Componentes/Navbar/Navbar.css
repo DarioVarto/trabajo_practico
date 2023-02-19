@@ -1,19 +1,18 @@
 
 .contenedorNav{
-    display:flex;
-    justify-content: space-around; 
-    background-color: transparent;
-  align-items: center;
-  padding: 0 1.6vh;
+                display:flex;
+                justify-content: space-around; 
+                background-color: transparent;
+                align-items: center;
+                padding: 0 1.6vh;
+                margin-top: 1.4rem;
+                }
 
-margin-top: 1.4rem;
-    
-}
 .nav_items{
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-}
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            }
 
 .aNavbar{
     padding: 3rem 1rem 1rem 1rem;
@@ -61,11 +60,24 @@ margin-top: 1.4rem;
     
 }
 @media(max-width:1280px){
-    .aNavbar{font-size: 1.2rem;}
+    .contenedorNav{
+                    padding: 2vh 11.8vh;
+                    justify-content: space-between;}
+    .aNavbar{
+            font-size: 1.2rem;
+            }
+            
     .redes{font-size: 1.5rem;}
+    .nav_items{width: 80%;}
     
 }
-@media(max-width:1000px){
+@media(max-width:1024px){
+
+    .contenedorNav{
+        justify-content: space-between;
+        padding: 0 16vh;
+        height: 6rem;
+    }
 
     .nav_items{
         position:absolute;
@@ -104,11 +116,7 @@ margin-top: 1.4rem;
             .hamburguesa:hover{
                 transform: scale(1.2);
             }
-    .contenedorNav{
-        justify-content: space-between;
-        padding: 0 8vh;
-        height: 6rem;
-    }
+    
     .aNavbar{padding: 0 0 0 0;
             margin-bottom: 0.5rem;
             font-weight: 700;

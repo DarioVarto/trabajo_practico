@@ -79,3 +79,7 @@ label{
     background-color: var(--colorPrimario);
     transform: scale(1.1);
 }
+
+@media(max-width:1280px){
+    .margin_contenido_form{padding-left: 18%;}
+}

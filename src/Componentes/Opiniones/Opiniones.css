@@ -46,6 +46,10 @@
 }
 .btn_carrousel:hover{transform: scale(1.15);}
 
+@media(max-width:1280px){
+    .contenedor_opiniones{margin-top: 8rem;}
+}
+
 @media(max-width:1024px){
     .contenedor_opiniones{margin-top: 6rem;}
     .Contenedor_opiniones_carrousel{width: 80%;}

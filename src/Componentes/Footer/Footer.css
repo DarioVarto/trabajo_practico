@@ -30,8 +30,13 @@ align-items: center;
 .aFooter :hover {transform: scale(1.2);}
 
 @media(max-width:1680px){
-    .info_footer{padding: 0 4vh;}
+    .info_footer{padding: 0 4.8vh;}
     .redes_footer{
-        padding-right: 8vh;
+        padding-right: 9vh;
     }
 }
+
+@media(max-width:1680px){
+                    .info_footer{padding: 0 9vh;}
+                    .redes_footer{padding-right: 17.2vh;}
+                        }

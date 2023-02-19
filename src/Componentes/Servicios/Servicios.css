@@ -53,14 +53,15 @@ background-color: black;
 /* 
 revisar en javascript */
 
-@media(max-width:1600px){
+@media(max-width:1680px){
     .btn_servicios{font-size: 1.6rem;}
     .flecha_servicios{font-size: 1.8rem;}
 }
 @media(max-width:1280px){
-    .contenedor_servicios{margin-top: 5rem;}
+    .contenedor_servicios{margin-top: 0rem;}
     .btn_servicios{
         font-size: 1.2rem;
+        width: 32%;
     }
     .flecha_servicios{font-size: 1.4rem;}
     .btn_servicios{padding: 0.8rem;}
