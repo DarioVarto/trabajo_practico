@@ -2,10 +2,9 @@
 .contenedorNav{
                 display:flex;
                 justify-content: space-around; 
-                background-color: transparent;
-                align-items: center;
+                align-items: end;
                 padding: 0 1.6vh;
-                margin-top: 1.4rem;
+                
                 }
 
 .nav_items{
@@ -25,6 +24,8 @@
 
 .contenedor_redes{display: flex;
  gap: 0.4rem;
+ align-items: end;
+ 
 }
 .redes{
     padding: 0.5rem;
@@ -35,7 +36,7 @@
 }
 
 .aNavbar:hover{
-    padding-top: 3.6rem;
+    padding-top: 3rem;
     background-color: var(--colorPrimario);
 }
 .redes_hover{
@@ -47,11 +48,7 @@
 }
 
 
-.Logo{
-    margin-left: 2rem;
 
-
-}
 
 .hamburguesa{display: none;}
 
@@ -69,13 +66,13 @@
             
     .redes{font-size: 1.5rem;}
     .nav_items{width: 80%;}
-    
+    .Logo{margin-left: 0.6rem;}
 }
 @media(max-width:1024px){
 
     .contenedorNav{
         justify-content: space-between;
-        padding: 0 16vh;
+        padding: 0 10vh;
         height: 6rem;
     }
 
@@ -93,7 +90,8 @@
     }
 
     .nav_items.open{/* transform: translateX(0%); */
-        display: inline-block;}
+        display: flex;
+    flex-direction: column;}
 
     .contenedor_a{
         display: flex;
@@ -108,7 +106,7 @@
         align-items: end;
     }
     
-    .hamburguesa{display:inline-block;
+    .hamburguesa{display:inline;
                 color: white;
                 font-size: 2.5rem;
                 /* transition: all 0.2s linear; */
@@ -116,12 +114,15 @@
             .hamburguesa:hover{
                 transform: scale(1.2);
             }
+
+    .redes{font-size: 3rem;}
     
     .aNavbar{padding: 0 0 0 0;
             margin-bottom: 0.5rem;
             font-weight: 700;
             margin-right: 0;
-            transition: 0.3s ease all;
+            font-size: 2rem;
+           /*  transition: 0.3s ease all; */
             }
     /* .redes_hover{transition: 0.3s ease all;} */
    
@@ -135,6 +136,7 @@
 @media(max-width:768px){
     .contenedorNav{
         justify-content: space-around;
-        width: 100%;
+        width: 90%;
     padding: 0 0;}
+    .Logo{margin-left: 0rem;}
 }

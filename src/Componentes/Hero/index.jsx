@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css'
-
+import Img_Hero from '../../assets/imagenes/Img_Hero.png'
 import Img_hero from '../../assets/imagenes/zyro-image.png'
 
 const Hero = () => {
@@ -37,9 +37,10 @@ const Hero = () => {
                             <svg viewBox="0 15 185 192" xmlns="http://www.w3.org/2000/svg" className='shp'>
                                     <path fill="#FF4900" d="M38.5,-45.8C53.2,-33.5,70.8,-24.5,74.6,-11.8C78.5,0.9,68.6,17.4,59,34C49.3,50.5,39.9,67.1,24.8,76.2C9.6,85.2,-11.2,86.7,-24.3,77.4C-37.4,68,-42.6,47.8,-51.9,30.5C-61.3,13.2,-74.7,-1.1,-72.8,-13.1C-71,-25,-53.9,-34.4,-39.2,-46.7C-24.5,-59.1,-12.3,-74.3,-0.2,-74.1C11.9,-73.9,23.8,-58.2,38.5,-45.8Z" transform="translate(85 100)" />
                             </svg>
-                            <svg viewBox="0 -8 180 192" xmlns="http://www.w3.org/2000/svg" className='shpMq'>
+                          {/*   <svg viewBox="0 -8 180 192" xmlns="http://www.w3.org/2000/svg" className='shpMq'>
                                     <path fill="#FF4900" d="M38.5,-45.8C53.2,-33.5,70.8,-24.5,74.6,-11.8C78.5,0.9,68.6,17.4,59,34C49.3,50.5,39.9,67.1,24.8,76.2C9.6,85.2,-11.2,86.7,-24.3,77.4C-37.4,68,-42.6,47.8,-51.9,30.5C-61.3,13.2,-74.7,-1.1,-72.8,-13.1C-71,-25,-53.9,-34.4,-39.2,-46.7C-24.5,-59.1,-12.3,-74.3,-0.2,-74.1C11.9,-73.9,23.8,-58.2,38.5,-45.8Z" transform="translate(100 100)" />
-                            </svg>
+                            </svg> */}
+                            <img src={Img_Hero} alt="Imagen Darío" className='shpMq'/>
 
                             <div className="contenedor_imagen">
                                 <img src={Img_hero} alt="Imagen Darío" className='img_hero'/>

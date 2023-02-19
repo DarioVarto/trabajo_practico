@@ -25,8 +25,8 @@ const Logo = () => {
     },
     }
 
-    return(
-        <motion.svg className="infinito" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+    return(<div className='Logo'>
+        <motion.svg className="infinito" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 16 16"
                     variants={svgVariants}
                     initial='hidden'
                     animate='visible'
@@ -37,7 +37,7 @@ const Logo = () => {
   initial='hidden'
   animate='visible'/>
 </motion.svg>
-
+</div>
 
     )
     

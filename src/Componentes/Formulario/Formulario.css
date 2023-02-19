@@ -85,10 +85,13 @@ label{
 }
 
 @media(max-width:1024px){
-    .margin_contenido_form{padding-left: 8%;}
-}
-@media(max-width:736px){
-    .margin_contenido_form{padding-left: 0;}
+
+    .contenedor_form{justify-content: center;}
+    
+    .margin_contenido_form{padding-left: 0;
+                            display: flex;
+                            flex-direction: column;
+                        align-items: center;}
     
     
     .nombre_apellido,.email_asunto{
@@ -105,9 +108,20 @@ label{
             align-items: center;
             margin-top: 4rem;
         }
-   .horario_contacto{margin-left: 6rem;
+   .horario_contacto{margin-left: 0rem;
                     }
                     .input_submit{
-                        margin-left: 13rem;
+                        margin-left: 0rem;
                     }
+}
+@media(max-width:768px){
+    form{display: flex;
+        justify-content: center;}
+
+        
+
+    
+
+   
+    
 }
