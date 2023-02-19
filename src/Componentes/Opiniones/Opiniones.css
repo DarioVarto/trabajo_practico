@@ -58,11 +58,11 @@
     .contenedor_opiniones{justify-content: center;}
     .Contenedor_opiniones_carrousel{width: 100%;
                                     margin-left: 0;}
-    
+                                    .imgagenes{width: 80%;}
 }
 @media(max-width:786px){
 
-    .imgagenes{width: 80%;}    
+        
       
                             }
                             

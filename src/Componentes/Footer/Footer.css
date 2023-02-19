@@ -76,6 +76,15 @@ align-items: center;
     
 }
 
+@media(max-width:640px){
+    .info_footer{margin-left: 3rem;}
+    .aFooter{padding: 0 0.2rem;}
+}
+
+@media(max-width:640px){
+    .info_footer{margin-left: 1rem;}
+}
+
 @media(max-width:360px){
     .info_footer{width: 80%;
                     margin-left: 0;

@@ -4,6 +4,7 @@ import { useState, } from 'react';
 import Img1 from '../../assets/imagenes/Img_Carrousel_Nico.png';
 import Img2 from '../../assets/imagenes/Img_Carrousel_Cristian.png';
 import Img3 from '../../assets/imagenes/Img_Carrousel_Charly.png';
+import {motion} from 'framer-motion'
 
 
 
@@ -26,7 +27,7 @@ const Opiniones = () => {
        
 const condition = next? selectIndex < imagenes.length-1:selectIndex > 0;
     const nextIndex = next? (condition? selectIndex + 1 : 0):(condition? selectIndex - 1 : imagenes.length -1);
-    setSelectImg(imagenes[nextIndex]);
+    setSelectImg(imagenes [nextIndex]);
     setSelectIndex(nextIndex);
        
     
@@ -54,7 +55,11 @@ const condition = next? selectIndex < imagenes.length-1:selectIndex > 0;
        
                 <div className='Contenedor_opiniones_carrousel img_carrousel'>
             
-                    <img src={selectImg} alt="Opiniones" className='imgagenes'/>
+                    <motion.img src={selectImg} alt="Opiniones" className='imgagenes'
+                    initial={{opacity:0}}
+                    animate={{opacity:1}}
+                    transition={{duration:1}}
+                    />
                 
                     <div className='contenedor_btn_carrousel'>
                     
