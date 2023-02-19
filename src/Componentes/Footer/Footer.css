@@ -40,3 +40,11 @@ align-items: center;
                     .info_footer{padding: 0 9vh;}
                     .redes_footer{padding-right: 17.2vh;}
                         }
+
+@media(max-width:1024px){
+    .contenedor_a{flex-wrap: wrap;
+                flex-direction: row;
+                width: 70%;}
+    .redes_footer{width: 20%;
+                    }
+}

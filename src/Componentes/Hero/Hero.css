@@ -175,7 +175,7 @@
                             display: flex;
                             height: 40%;
                             width: 50%;            
-                            transform: translateX(28vh) translateY(-76vh);
+                            transform: translateX(22vh) translateY(-58vh);
                             
                             }
 
@@ -211,6 +211,29 @@
         
         @media(max-width:832px){
             .contenedor_imagen{transform: translateX(22vh) translateY(-64vh);}
+        }
+
+        @media(max-width:768px){
+            
+            .contenedor_imagen{transform: translateX(10vh) translateY(-28vh);}
+            .contenedoorTexto{
+                width: 60%;
+                }
+            .span_bienvenido{
+                    margin-left: 10rem;}
+            .nombre_hero{font-size: 2rem;}
+            .profesion_hero{font-size: 1.2rem;}
+            .texto_hero{font-size: 1rem;}
+            .contenedor_btn{
+                align-items: center;
+                flex-direction: column;
+            }
+            .btn_hero{
+                width: 60%;
+        }
+
+
+
         }
     
        /*  @media(max-width:900px){

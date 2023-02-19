@@ -56,6 +56,9 @@
     
 }
 @media(max-width:786px){
-    .Contenedor_porfolio{width: 80%;}
+    
+    .contenedor_opiniones{width: 100%;}
+    
+    .img_carrousel{width: 0%;}
     
 }

@@ -9,7 +9,7 @@ const Formulario = () => {
                     <form action="https://formspree.io/f/xvonkvda" method="POST">
                         
                             <div className='margin_contenido_form'>
-                                <div>
+                                <div className='Mq_responsive'>
                                     <div className='nombre_apellido'>
                                         <label >Nombre</label>
                                         <input type="text" name='Nombre' required/>
