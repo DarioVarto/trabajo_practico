@@ -117,11 +117,8 @@ label{
 @media(max-width:768px){
     form{display: flex;
         justify-content: center;}
+}
 
-        
-
-    
-
-   
-    
+@media(max-width:360px){
+    label{font-size: 1rem;}
 }

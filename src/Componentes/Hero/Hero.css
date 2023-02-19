@@ -97,7 +97,7 @@
     
     @media(max-width:1680px){
         
-                            
+        
                             .contenedoorTexto{
                                                 padding-left: 10.2rem;
                                                 margin-top: 0rem;
@@ -109,9 +109,10 @@
                                                 transform: translateX(24vh) translateY(-86vh); */
                                                 }
                             .shp{display: none;}
-                            .shpMq{display: inline-block;
+                            .shpMq{display: inline;
                                     margin-top: 2rem;
-                                    margin-left: 2rem;}
+                                    margin-left: 2rem;
+                                width: 100%;}
 
                             .img_hero{width: 100%;
                             display: none;}
@@ -169,11 +170,14 @@
                        
                         height: auto;
                         
-                        width: 100%;    
+                        width: 100%; 
+                        align-items: center;   
                         }
+                    .contenedor_img_hero{display: flex;
+                    justify-content: center;}
         
         
-        .shpMq{margin-left: 8rem;}
+       
         
         
         
@@ -213,14 +217,14 @@
         
         
         @media(max-width:768px){
-            .shpMq{margin-left: 4em;
+            .shpMq{margin-left: 4rem;
                     width: 90%;
                     }
             .contenedor_hero{
                             display: flex;
                             align-items: center;
                            
-                            width: 80%;}
+                            width: 100%;}
 
 
             .contenedoorTexto{
@@ -229,6 +233,29 @@
             }
             .span_bienvenido{margin-left:0 ;}
         }
+        @media(max-width:640px){
+            .contenedoorTexto{align-items: center;}
+            .shpMq{margin-left: 0;}
+            .nombre_hero{font-size: 2rem;}
+            .profesion_hero{font-size: 1.4rem;}
+            .btn_hero{
+                    
+                    
+                padding: 1rem 2rem;
+        font-size: 1.2rem;
+        
+        }
+        }
+        @media(max-width:360px){
+            .contenedor_hero{width: 100%;}
+            .btn_hero{
+                    
+                    
+                padding: 0.5rem 1rem;
+        font-size: 1rem;
+        }
+        .span_bienvenido{width: 50%;}
+    }
                                 
            
         

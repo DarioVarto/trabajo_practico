@@ -91,6 +91,27 @@ gap: 2rem;}
                             align-items: center;
                             margin: 0 auto;}
 }
+
+
+@media(max-width:640px){
+    .titulo_section{font-size: 2rem;}
+    .btn_servicios{width: 80%;
+        font-size: 1.2rem;}
+}
+
+@media(max-width:640px){
+    .btn_servicios{width: 100%;
+        font-size: 1rem;}
+        
+}
+
+@media(max-width:360px){
+    .icon_servicios{display: none;}
+    .flecha_servicios{margin-right: 0px;}
+}
+
+
+
 @media(max-width:320px){
     .titulo_section{font-size: 2.5rem;}
     .descripcion_servicios{font-size: 1.2rem;}

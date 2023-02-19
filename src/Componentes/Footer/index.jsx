@@ -11,7 +11,7 @@ const Footer = () => {
 
             <div className='contenedor_a_Footer'> 
             <div>
-                <a className='aFooter' href="#Hero">Acerca de mí</a>
+                <a className='aFooter' href="#Hero">Sobre mí</a>
                 <a className='aFooter' href="#servicios">Servicios</a>
                 </div>
                 <div>

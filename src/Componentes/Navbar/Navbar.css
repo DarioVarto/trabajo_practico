@@ -136,7 +136,13 @@
 @media(max-width:768px){
     .contenedorNav{
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
     padding: 0 0;}
     .Logo{margin-left: 0rem;}
+}
+
+@media(max-width:640px){
+    .contenedorNav{justify-content: space-between;
+                    width: 80%;
+                    padding-left: 3rem;}
 }

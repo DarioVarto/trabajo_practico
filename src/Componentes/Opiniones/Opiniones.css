@@ -46,6 +46,8 @@
 }
 .btn_carrousel:hover{transform: scale(1.15);}
 
+
+
 @media(max-width:1280px){
     .contenedor_opiniones{margin-top: 8rem;
                            }
@@ -54,14 +56,13 @@
 
 @media(max-width:1024px){
     .contenedor_opiniones{justify-content: center;}
-    .Contenedor_opiniones_carrousel{width: 60%;
+    .Contenedor_opiniones_carrousel{width: 100%;
                                     margin-left: 0;}
     
 }
 @media(max-width:786px){
 
-    .imgagenes{width: 100%;}
-    .contenedor_opiniones{width: auto;}
-    
+    .imgagenes{width: 80%;}    
       
                             }
+                            
