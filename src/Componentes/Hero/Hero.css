@@ -95,28 +95,28 @@
     
     
     
-    @media(max-width:1680px){
+@media(max-width:1680px){
+
+                            .contenedor_hero{justify-content: center;}
         
-        
-                            .contenedoorTexto{
-                                                padding-left: 10.2rem;
-                                                margin-top: 0rem;
-                                            }
-                            .contenedor_imagen{      display: none;   
-                                                /* display: flex;
-                                                height: 50%;
-                                                width: 60%;            
-                                                transform: translateX(24vh) translateY(-86vh); */
+                            .contenedor_img_hero{
+                                                display: flex;
+                                                align-items: center;
                                                 }
+                           
+                            .contenedor_imagen{display: none;}
+                            
                             .shp{display: none;}
-                            .shpMq{display: inline;
-                                    margin-top: 2rem;
-                                    margin-left: 2rem;
-                                width: 100%;}
+                            
+                            .shpMq{
+                                    display: inline;
+                                    
+                                    margin-left: 0;
+                                    
+                                    width: 100%;
+                                    }
 
-                            .img_hero{width: 100%;
-                            display: none;}
-
+                            .img_hero{display: none;}
 
                             .btn_hero{padding: 1.2rem 3.5rem;}                   
                         
@@ -124,25 +124,19 @@
 
    
 
-    @media(max-width:1440px){
-        
-        .span_bienvenido{width: 30%;}
-    }
+    @media(max-width:1440px){.span_bienvenido{width: 30%;}}
     
-    @media(max-width:1366px){
-        
-        .span_bienvenido{width: 25%;}
-    }
+    @media(max-width:1366px){.span_bienvenido{width: 25%;}}
 
     
     
     @media(max-width:1280px){
-    
-                            .contenedoorTexto{padding-left: 6.6rem;}
-                            .span_bienvenido{
-                                            width: 25%;
-                                            font-size: 1.2rem;
-                                            }
+                            .contenedor_hero{align-items: center;}
+                            
+                            .contenedoorTexto{padding-left: 5rem;}
+                            
+                            .span_bienvenido{font-size: 1.2rem;}
+
                             .nombre_hero{font-size: 2.6rem;}
         
                             .profesion_hero{
@@ -153,109 +147,93 @@
                             .texto_hero{
                                         font-size: 1rem;
                                         margin-top: 0.4;}
-                            .contenedor_btn{margin-top: 2.2rem;
-                                            }
+
+                            .contenedor_btn{margin-top: 2.2rem;}
+
                             .btn_hero{
                                     padding: 1rem 5rem;
                                     font-size: 1rem;
                                     }
-                            .shpMq{height: 90%;
-                                   }       
                             }
     
     @media(max-width:1024px){
 
-        .contenedor_hero{flex-direction: column-reverse;
-                        gap: 6rem;
-                       
-                        height: auto;
-                        
-                        width: 100%; 
-                        align-items: center;   
-                        }
-                    .contenedor_img_hero{display: flex;
-                    justify-content: center;}
-        
-        
-       
-        
-        
-        
+                            .contenedor_hero{
+                                            flex-direction: column-reverse;
+                                            gap: 6rem;
+                                            height: auto;
+                                            }
 
-        
-        
-       
+                            .span_bienvenido{
+                                            font-size: 1rem;
+                                            margin-left: 18rem;
+                                            margin-bottom: 4rem;}
 
-        .span_bienvenido{
-                        font-size: 1rem;
-                        margin-left: 18rem;
-                        margin-bottom: 4rem;}
-        .nombre_hero{font-size: 2.8rem;}
-        .profesion_hero{
-                        margin-bottom: 1rem;
-                        font-size: 1.6rem;}
-        .texto_hero{margin-top: 0.2rem;
-                    font-size: 1.2rem;
-                }
-        .contenedor_btn{
-                        margin-top: 4rem;
-                        justify-content: start;}
-        .btn_hero{
-                    
-                    
-                    padding: 1.4rem 4rem;
-            font-size: 1.4rem;
-            
-            }
-            .contenedoorTexto{
-                padding-left: 0rem;
-                margin-top: 0rem;
-            }
+                            .nombre_hero{font-size: 2.8rem;}
         
-            }
+                            .profesion_hero{
+                                            margin-bottom: 1rem;
+                                            font-size: 1.6rem;
+                                            }
+
+                            .texto_hero{   
+                                        margin-top: 0.2rem;
+                                        font-size: 1.2rem;
+                                        }
+
+                            .contenedor_btn{
+                                            margin-top: 4rem;
+                                            justify-content: center;
+                                            }
+
+                            .btn_hero{
+                                    padding: 1.4rem 4rem;
+                                    font-size: 1.4rem;            
+                                    }
+
+                            .contenedoorTexto{
+                                            padding-left: 0rem;
+                                            margin-top: 0rem;
+                                            }
+        
+                            }
             
         
         
-        @media(max-width:768px){
-            .shpMq{margin-left: 4rem;
-                    width: 90%;
-                    }
-            .contenedor_hero{
-                            display: flex;
-                            align-items: center;
-                           
-                            width: 100%;}
+    @media(max-width:768px){
+                            .contenedor_hero{
+                                            display: flex;
+                                            align-items: center;                           
+                                            width: 100%;
+                                        }
 
+                            .contenedoorTexto{
+                                                width: 60%;
+                                                margin-bottom: 4rem;
+                                            }
 
-            .contenedoorTexto{
-                width: 60%;
-                margin-bottom: 4rem;
-            }
-            .span_bienvenido{margin-left:0 ;}
-        }
-        @media(max-width:640px){
-            .contenedoorTexto{align-items: center;}
-            .shpMq{margin-left: 0;}
-            .nombre_hero{font-size: 2rem;}
-            .profesion_hero{font-size: 1.4rem;}
-            .btn_hero{
-                    
-                    
-                padding: 1rem 2rem;
-        font-size: 1.2rem;
-        
-        }
-        }
-        @media(max-width:360px){
-            .contenedor_hero{width: 100%;}
-            .btn_hero{
-                    
-                    
-                padding: 0.5rem 1rem;
-        font-size: 1rem;
-        }
-        .span_bienvenido{width: 50%;}
-    }
+                            .span_bienvenido{margin-left:0 ;}
+                            }
+
+    @media(max-width:640px){                           
+                            .nombre_hero{font-size: 2rem;}
+                            .profesion_hero{font-size: 1.4rem;}
+                            .btn_hero{                    
+                                        padding: 1rem 2rem;
+                                        font-size: 1.2rem;                                       
+                                        }
+
+                            .span_bienvenido{width: 30%;}}
+       
+    @media(max-width:360px){
+                            .contenedor_hero{width: 100%;}
+                            .btn_hero{                    
+                                        padding: 0.5rem 1rem;
+                                        font-size: 1rem;
+                                    }
+
+                            .span_bienvenido{width: 50%;}
+                            }
                                 
            
         

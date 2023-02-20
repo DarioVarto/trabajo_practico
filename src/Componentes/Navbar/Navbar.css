@@ -47,104 +47,98 @@
 .redes_hover:hover{transform: scale(1.4);
 }
 
-
-
-
 .hamburguesa{display: none;}
 
-@media(max-width:1680px){
-    .contenedorNav{padding:0 1vh}
-    
-}
+
+@media(max-width:1680px){.contenedorNav{padding:0 1vh}}
+
 @media(max-width:1280px){
-    .contenedorNav{
-                    padding: 2vh 11.8vh;
-                    justify-content: space-between;}
-    .aNavbar{
-            font-size: 1.2rem;
-            }
+                        .contenedorNav{
+                                        padding: 2vh 8vh;
+                                        justify-content: space-between;
+                                    }
+
+                        .aNavbar{font-size: 1.2rem; padding-top: 3rem;}
             
-    .redes{font-size: 1.5rem;}
-    .nav_items{width: 80%;}
-    .Logo{margin-left: 0.6rem;}
-}
+                        .redes{font-size: 1.5rem;}
+                        
+                        .nav_items{width: 80%;}
+    
+                        .Logo{margin-left: 0.6rem;}
+                        }
+
 @media(max-width:1024px){
+                        .contenedorNav{
+                                        justify-content: space-between;
+                                        padding: 0 10vh;
+                                        height: 6rem;
+                                        }
 
-    .contenedorNav{
-        justify-content: space-between;
-        padding: 0 10vh;
-        height: 6rem;
-    }
+                        .nav_items{
+                                    position:absolute;
+                                    right: 6rem;
+                                    top:6rem;
+                                    flex-direction: column;
+                                    align-items: end;
+                                    width: 25%;
+                                    display: none;
+                                    }
 
-    .nav_items{
-        position:absolute;
-        right: 6rem;
-        top:6rem;
-        flex-direction: column;
-        align-items: end;
-        /* background-color: rgba(0,255,255, 0.2); */
-        width: 25%;
-        /* transform: translateX(100%); */
-        display: none;
-        
+                        .nav_items.open{
+                                        display: flex;
+                                        flex-direction: column;
+                                        }
 
-    }
-
-    .nav_items.open{/* transform: translateX(0%); */
-        display: flex;
-    flex-direction: column;}
-
-    .contenedor_a{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: end;
-
-    }
-    .contenedor_redes{
-        flex-direction: column;
-        width: 100%;
-        align-items: end;
-    }
+                        .contenedor_a{
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    align-items: end;
+                                    }
+                        .contenedor_redes{
+                                        flex-direction: column;
+                                        width: 100%;
+                                        align-items: end;
+                                        }
     
-    .hamburguesa{display:inline;
-                color: white;
-                font-size: 2.5rem;
-                /* transition: all 0.2s linear; */
-            }
-            .hamburguesa:hover{
-                transform: scale(1.2);
-            }
+                        .hamburguesa{
+                                    display:inline;
+                                    color: white;
+                                    font-size: 2.5rem;
+                                    }
 
-    .redes{font-size: 2rem;}
+                        .hamburguesa:hover{transform: scale(1.2);}
+
+                        .redes{font-size: 2rem;}
     
-    .aNavbar{padding: 0 0 0 0;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-            margin-right: 0;
-            font-size: 1.6rem;
-            
-          
-            }
-    
-   
-    
-    .aNavbar:hover{
-        padding: 0 0;
-        transform: scale(1.2);
-        background-color: transparent;
-    }
-}
+                        .aNavbar{
+                                padding: 0 0 0 0;
+                                margin-bottom: 0.5rem;
+                                font-weight: 700;
+                                margin-right: 0;
+                                font-size: 1.6rem;
+                                }
+       
+                        .aNavbar:hover{
+                                        padding: 0 0;
+                                        transform: scale(1.2);
+                                        background-color: transparent;
+                                        }
+                        }
+
+
 @media(max-width:768px){
-    .contenedorNav{
-        justify-content: space-around;
-        width: 100%;
-    padding: 0 0;}
-    .Logo{margin-left: 0rem;}
-}
+                        .contenedorNav{justify-content: space-around;}
+                        
+                        .aNavbar{font-size: 1rem;}
 
-@media(max-width:640px){
-    .contenedorNav{justify-content: space-between;
-                    width: 80%;
-                    padding-left: 3rem;}
-}
+                        .redes{font-size: 1.4rem;}
+                        }
+
+@media(max-width:640px){   
+                        .contenedorNav{
+                                        justify-content: space-between;
+                                        padding: 0 2vh;
+                                    }
+                        }
+

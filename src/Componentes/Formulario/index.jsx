@@ -32,14 +32,14 @@ const Formulario = () => {
 
                                 <label className='horario_contacto' >Seleccione un horario para contactarlo</label>
                                 
-                                    <div className='form_tercera_parte'>                     
+                                <div className='form_tercera_parte'>                     
                                         <label >De 8 hs a 12 hs</label>
                                         <input type="radio" name='Contactar por la maniana'/>
                                         <label >De 12 hs a 16 hs</label>
                                         <input type="radio" name='contactar por la tarde'/>
                                         <label >De 16 hs a 20 hs</label>
                                         <input type="radio" name='Contactar por la noche' />
-                                    </div>
+                                </div>
                
                                 <input type="submit" className='input_submit'/>     
                             </div>

@@ -21,18 +21,16 @@
 .img_1,.img_3{background-color:rgb(209, 209,209) ;}
 .img_2{background-color: rgb(85, 85, 85);}
 
-@media(max-width:1600px){
-    .img_portfolio{width: 18%;}
-}
-@media(max-width:1400px){
-    .img_portfolio{width: 16%;}
-}
-@media(max-width:1200px){
-    .img_portfolio{width: 12%;}
-}
+@media(max-width:1600px){.img_portfolio{width: 18%;}}
+
+@media(max-width:1400px){.img_portfolio{width: 16%;}}
+
+@media(max-width:1200px){.img_portfolio{width: 12%;}}
+
 @media(max-width:1000px){
     .contenedor_imagenes{flex-direction: column;
-    align-items: center;
-gap: 2rem;}
-.img_portfolio{width: 40%;}    
-}
+                        align-items: center;
+                        gap: 2rem;}
+
+    .img_portfolio{width: 40%;}    
+                        }

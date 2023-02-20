@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 12rem;
-   /*  position: relative; */
+   
 }
 
 .Contenedor_opiniones_carrousel{
@@ -30,39 +30,27 @@
     }
 
 .contenedor_btn_carrousel{
-    display: flex;
-    /* position: absolute; */
-    width: 5%;
-    justify-content: space-between;
-    
-    bottom: 0;
-}
+                        display: flex;
+                        width: 5%;
+                        justify-content: space-between;
+                        }
+
 .btn_carrousel{
-    font-size: 2rem;
-    color: var(--colorPrimario);
-    background-color: transparent;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
+                font-size: 2rem;
+                color: var(--colorPrimario);
+                background-color: transparent;
+                border: 2px solid transparent;
+                cursor: pointer;
+                }
+
 .btn_carrousel:hover{transform: scale(1.15);}
 
 
 
-@media(max-width:1280px){
-    .contenedor_opiniones{margin-top: 8rem;
-                           }
-    .Contenedor_opiniones_carrousel{margin-left: 8rem;}
-}
+@media(max-width:1280px){.contenedor_opiniones{margin-top: 8rem;}}
 
 @media(max-width:1024px){
-    .contenedor_opiniones{justify-content: center;}
-    .Contenedor_opiniones_carrousel{width: 100%;
-                                    margin-left: 0;}
-                                    .imgagenes{width: 80%;}
-}
-@media(max-width:786px){
-
-        
-      
-                            }
-                            
+                        .contenedor_opiniones{justify-content: center;}
+ 
+                        .imgagenes{width: 80%;}
+                        }

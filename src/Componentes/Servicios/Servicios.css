@@ -50,72 +50,66 @@ background-color: black;
     }
 .btn_servicios:hover .icon_servicios{background-color: white;}
 .btn_servicios>a{text-decoration: none;color: white;}
-/* 
-revisar en javascript */
+
 
 @media(max-width:1680px){
-    .btn_servicios{font-size: 1.6rem;}
-    .flecha_servicios{font-size: 1.8rem;}
-    .contenedor_servicios{margin-top: 0rem;}
-}
+                        .btn_servicios{font-size: 1.6rem;}
+                        .flecha_servicios{font-size: 1.8rem;}
+                        .contenedor_servicios{margin-top: 0rem;}
+                        }
 
 @media(max-width:1280px){
-    .contenedor_servicios{margin-top: 4rem;}
-    .btn_servicios{
-        font-size: 1.2rem;
-        width: 32%;
-    }
-    .flecha_servicios{font-size: 1.4rem;}
-    .btn_servicios{padding: 0.8rem;
-                    letter-spacing: 0.2rem;}
-    .descripcion_servicios{font-size: 1.2rem;}
+                        .contenedor_servicios{margin-top: 4rem;}
+                        .btn_servicios{
+                                        font-size: 1.4rem;
+                                        width: 32%;
+                                        }
+                        .flecha_servicios{font-size: 1.4rem;}
+                        .btn_servicios{
+                                        padding: 0.8rem;
+                                        letter-spacing: 0.2rem;}
+
+                        .descripcion_servicios{font-size: 1.2rem;}
 }
 @media(max-width:1024px){
-    .contenedor_servicios{
-                        justify-content: center;}
-    .contenedorDivServicios{flex-direction: column;
-    width: 100%;
-align-items: center;
-gap: 2rem;}
-.btn_servicios{width: 50%;
-                font-size: 2rem;}
-                .descripcion_servicios{font-size: 1.4rem;}
-}
+                        .contenedor_servicios{justify-content: center;}
+                        .contenedorDivServicios{
+                                                flex-direction: column;
+                                                width: 100%;
+                                                align-items: center;
+                                                gap: 2rem;}
+                        .btn_servicios{
+                                        width: 50%;
+                                        font-size: 2rem;}
+
+                        .descripcion_servicios{font-size: 1.4rem;}
+                        }
+
 @media(max-width:768px){
-    .descripcion_servicios{display: none;
-                            margin-left: 0rem;}
-    .btn_servicios{width: 60%;
-                    font-size: 1.6rem;}
-    .contenedor_servicios{margin-top: 4rem;
-                            width: 80%;
-                            align-items: center;
-                            margin: 0 auto;}
-}
 
-
-@media(max-width:640px){
-    .titulo_section{font-size: 2rem;}
-    .btn_servicios{width: 80%;
-        font-size: 1.2rem;}
-}
+                        .btn_servicios{width: 60%;
+                                        font-size: 1.6rem;}
+                        .contenedor_servicios{
+                                            margin-top: 4rem;
+                                            width: 80%;
+                                            align-items: center;
+                                            margin: 0 auto;
+                                            }
+                        }
 
 @media(max-width:640px){
-    .btn_servicios{width: 100%;
-        font-size: 1rem;}
-        
-}
+                        .titulo_section{font-size: 2rem;}
+                        .btn_servicios{
+                                        width: 80%;
+                                        font-size: 1.4rem;}
+                        .descripcion_servicios{font-size: 1.2rem;}}
+
 
 @media(max-width:360px){
-    .icon_servicios{display: none;}
-    .flecha_servicios{margin-right: 0px;}
+                        .btn_servicios{
+                                        width: 90%;
+                                        font-size: 1rem;}
+                        .icon_servicios{display: none;}
+                        .flecha_servicios{margin-right: 0px;}
 }
 
-
-
-@media(max-width:320px){
-    .titulo_section{font-size: 2.5rem;}
-    .descripcion_servicios{font-size: 1.2rem;}
-    .btn_servicios{width: 80%;
-        font-size: 1.2rem;}
-        
-}
